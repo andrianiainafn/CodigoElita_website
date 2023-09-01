@@ -1,7 +1,18 @@
+import Invitation from '@/Components/Invitation'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-      <div className=""></div>
+    <>
+      <header>
+
+      </header>
+      <main className="">
+         <Invitation/>
+      </main>
+      <footer>
+
+      </footer>
+    </>
   )
 }
