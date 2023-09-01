@@ -1,5 +1,6 @@
+import Contact from '@/Components/Contact'
 import Invitation from '@/Components/Invitation'
-import Image from 'next/image'
+import Service from '@/Components/Service'
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
 
       </header>
       <main className="">
+         <Service/>
          <Invitation/>
+         <Contact/>
       </main>
       <footer>
 
