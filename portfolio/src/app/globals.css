@@ -13,6 +13,9 @@
     .text-subhead{
         @apply  text-[2.5rem] leading-tight 
     }
+    .text-title{
+        @apply  text-[1.5rem] font-medium
+    }
     .text-medium{
         @apply text-[1.2rem]
     }
@@ -29,7 +32,7 @@
         @apply px-[10%]
     }
     .padding-y{
-        @apply py-[10%]
+        @apply py-[6%]
     }
 }
 /* .nav-fix{
@@ -45,6 +48,7 @@
     align-items: center;
     padding: 0.8rem  1.5rem;
     border-radius: 0.5rem ;
+    color:#7C3AED;
     -webkit-border-radius: 0.5rem ;
     -moz-border-radius: 0.5rem ;
     -ms-border-radius: 0.5rem ;
@@ -56,6 +60,9 @@
     /* border-radius: 12px; */
     background: linear-gradient(92deg, #7C3AED 45.9%, rgba(124, 58, 237, 0.51) 121.33%);
 
+}
+.btn-link{
+    padding: 0;
 }
 .btn-secondary{
     border: 1px solid #7C3AED;

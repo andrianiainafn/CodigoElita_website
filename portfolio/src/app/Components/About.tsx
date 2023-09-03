@@ -1,16 +1,13 @@
 import { MdArrowForward } from "react-icons/md";
 import Button from "../Element/Button";
 import Image from "next/image";
+import Title from "../Element/Ttitle";
 
 export default function About(){
     return (
-        <section className="w-full flex justify-around items-center padding-x padding-y ">
+        <section className="w-full  flex justify-around items-center padding-x padding-y ">
             <div className="flex-1 flex flex-col items-baseline">
-                <div id="about" className="  title ">
-                    <div className="title-line"/> 
-                    <h3>About us</h3>
-                </div>
-
+                <Title  id="about" name="About us" />
                 <div>
                     <h2 className="text-subhead font-medium w-[20ch] py-2">
                         <span className="text-secondary">Untitled</span>
@@ -32,8 +29,8 @@ export default function About(){
                  <Image 
                      src='/Teamwork.png'
                      alt="image for about section"
-                     width={650}
-                     height={400}
+                     width={600}
+                     height={300}
                      className="rounded-lg"
                  />
             </div>
