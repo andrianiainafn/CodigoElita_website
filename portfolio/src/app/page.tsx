@@ -4,6 +4,7 @@ import Service from '@/app/Components/Service'
 import NavBar from './Components/NavBar/NavBar'
 import Header from './Components/Header'
 import About from './Components/About'
+import Footer from './Components/Footer'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
          <Contact/>
       </main>
       <footer>
-
+        <Footer/>
       </footer>
     </>
   )
