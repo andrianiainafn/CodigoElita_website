@@ -18,7 +18,7 @@ const Service = (props: Props) => {
           {
             services.map((item, index) => {
                 return (
-                    <Card title={item.title} description={item.description} isPriority={index === 1}/>
+                    <Card title={item.title} description={item.description} isPriority={index === 1} />
                 )
             })
           }

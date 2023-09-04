@@ -5,7 +5,7 @@ import  { MdArrowBack, MdArrowForward, MdArrowRight, MdNavigateNext } from 'reac
 
 export default function Header(){
     return(
-        <header className="bg-gradient-header h-[100vh] flex-col">
+        <header className="bg-gradient-header min-h-screen flex-col">
              <NavBar />
              <div className=" w-full h-[90vh] flex flex-col gap-5 items-center mt-20 text-[#0d0d0d]  relative">
                   <h2 className="text-center w-[22ch] text-head font-semibold">
