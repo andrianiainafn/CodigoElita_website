@@ -8,7 +8,7 @@ export default  function NavBar(){
      const [isScrolled, setisScrolled] = useState<boolean>(false)
      return (
          
-        <div className={`w-full h-[10vh] flex justify-around items-center nav-fix`}>
+        <div className={`w-full h-[10vh] flex justify-around items-center fixed top-0 mb-10 backdrop-filter backdrop-blur-lg z-10 bg-opacity-30 border-b border-gray-200`}>
              {/* <Image 
                   src='/logo'
                   alt="logo of untitled"

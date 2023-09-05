@@ -3,7 +3,7 @@ import React from 'react'
 
 type Props = {}
 
-const Footer = (props: Props) => {
+export const Footer = (props: Props) => {
   return (
     <div className='bg-[#131313] text-[#fff] py-12 px-20 space-y-4'>
         <div className="flex justify-between items-start flex-col md:flex-row ">
