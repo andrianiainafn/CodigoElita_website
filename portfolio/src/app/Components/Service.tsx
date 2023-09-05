@@ -14,7 +14,7 @@ const Service = (props: Props) => {
         <div className="w-full flex  flex-col gap-2 text-[#f2f2f2] mb-10">
             <h2 className='text-subhead max-w-[24ch]'>The <span className='text-secondary'>services</span> that we offer</h2>
         </div>
-        <div className="w-full flex justify-between gap-4">
+        <div className="w-full flex flex-col md:flex-row gap-4">
           {
             services.map((item, index) => {
                 return (
