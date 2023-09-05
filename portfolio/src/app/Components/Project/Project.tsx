@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 export default function Project(){
      return (
          <section className="w-full padding-x padding-y">
-              <Title name="Portfolio"  id="project" custumnClass="text-[#f2f2f2"/>
+              <Title name="Portfolio"  id="projects" custumnClass="text-[#f2f2f2"/>
               <h2 className="text-subhead">Our Recent Projects</h2>
               <div className=" w-full flex">
                   {

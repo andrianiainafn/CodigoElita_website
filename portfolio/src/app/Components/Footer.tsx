@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6'
 
 type Props = {}
 
-export const Footer = (props: Props) => {
+export default function Footer(props: Props) {
   return (
-    <div className='bg-[#131313] text-[#fff] py-12 px-20 space-y-4 footer'>
-        <div className="flex justify-between items-start flex-col space-y-5 md:flex-row ">
-            <div className="w-[100%] md:w-[40%] text-center md:text-start">
+    <div className='bg-[#131313] text-[#fff] space-y-4 padding-x padding-y'>
+        <div className="flex justify-between items-start flex-col md:flex-row ">
+            <div className="w-[100%] md:w-[40%]">
                 <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
             </div>
             <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5 list space-y-3">
@@ -42,15 +43,19 @@ export const Footer = (props: Props) => {
             <div className="">
                 <p className='opacity-70'>copyright@2023.Untitled</p>
             </div>
-            <div className="flex justify-between items-center space-x-2">
-                <div className='rounded-full h-8 w-8 bg-[#d9d9d9]'/>
-                <div className='rounded-full h-8 w-8 bg-[#d9d9d9]'/>
-                <div className='rounded-full h-8 w-8 bg-[#d9d9d9]'/>
-                <div className='rounded-full h-8 w-8 bg-[#d9d9d9]'/>
+            <div className="flex justify-between items-center space-x-2 cursor-pointer">
+                <a className='cursor-pointer'>
+                    <FaFacebook size="25" />
+                </a>
+                <a className='cursor-pointer'>
+                    <FaLinkedin size="25"  />
+                </a>
+                <a className='cursor-pointer'>
+                   <FaGithub size="25"  />
+                </a>
             </div>
         </div>
     </div>
   )
 }
 
-export default Footer

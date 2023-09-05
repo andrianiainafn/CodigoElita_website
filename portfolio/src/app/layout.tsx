@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import {  Poppins } from 'next/font/google'
+import './Components/Members/style.team.css'
 
 const poppins = Poppins({ 
   weight: ['400','500','700'], 
@@ -20,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={poppins.className}>{children}</body>
+    <html lang="en" style={{ scrollBehavior:'smooth'}}>
+      <body className={poppins.className} style={{ scrollBehavior:'smooth'}}>{children}</body>
     </html>
   )
 }

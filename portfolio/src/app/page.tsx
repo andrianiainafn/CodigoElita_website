@@ -6,11 +6,12 @@ import About from './Components/About'
 import Footer from './Components/Footer'
 import Stats from './Components/Stats'
 import Incitation from './Components/Incitation'
+import Members from './Components/Members/Members'
 import Project from './Components/Project/Project'
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Header/>
       <main className="w-full">
          <About />
@@ -22,6 +23,6 @@ export default function Home() {
       <footer>
         <Footer/>
       </footer>
-    </>
+    </div>
   )
 }

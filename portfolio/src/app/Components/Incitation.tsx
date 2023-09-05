@@ -1,16 +1,15 @@
 import React from 'react'
+import Button from '../Element/Button'
 
 function Incitation() {
   return (
-    <div className='text-[#fff] py-10 px-24 bg-[#7C3AEDC2] incitation'>
-        <div className="flex flex-col space-y-4 md:w-[45%] w-[100%]">
-            <h2 className='text-[2.5em]'>
-                Let’s create and <span className='opacity-70'>build</span> something amazing together
+    <div className='text-[#fff]  bg-[#7C3AEDC2] padding-x padding-y'>
+        <div className="flex flex-col space-y-4 md:w-[45%] w-[100%] mb-5">
+            <h2 className='text-subhead'>
+                Let’s create and <span className=''>build</span> something amazing together
             </h2>
-            <button className='bg-[#7C3AED] py-2 w-[200px]'>
-                Get in touch with us
-            </button>
         </div>
+        <Button type='primary'  label='Get in touch with us' to='#contact' size='large'/>
         <div className=""></div>
     </div>
   )

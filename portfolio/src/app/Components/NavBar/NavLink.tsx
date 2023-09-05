@@ -2,7 +2,7 @@
 import { links } from "@/app/constants/link";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import scrollTo  from 'next/router'
 
 export default function NavLink(){
      const [activeLink, setActiveLink] = useState<string | null>(null)
@@ -37,7 +37,8 @@ export default function NavLink(){
                          return (
                             <li key={link.href}>
                                 <Link 
-                                   href='#about'
+                                   href={link.href}
+                                  //  scroll={false}
                                    className={activeLink == link.href ? 'text-link text-medium active':'text-link text-medium'}
                                 >
                                      {link.name}
