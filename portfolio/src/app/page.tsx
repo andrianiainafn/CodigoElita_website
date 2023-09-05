@@ -8,6 +8,7 @@ import Stats from './Components/Stats'
 import Incitation from './Components/Incitation'
 import Members from './Components/Members'
 import Project from './Components/Project/Project'
+import Invitation from './Components/Invitation'
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <main className="w-full">
          <About />
          <Service/>
+         <Incitation/>
+         <Members/>
          <Invitation/>
          <Contact/>
       </main>
