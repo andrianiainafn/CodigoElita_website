@@ -8,13 +8,13 @@ export default function Header(){
         <header className=" min-h-[100vh] flex-col">
              <NavBar />
              <div className=" w-full h-[90vh] flex flex-col gap-5 items-center mt-40 text-[#0d0d0d]  relative">
-                  <h2 className="text-center w-[22ch] text-head font-semibold">
+                  <h2 className="text-center w-full md:w-[22ch] text-head font-semibold">
                      Transforming 
                     <span className="text-secondary"> Ideas </span> 
                       into Digital 
                     <span className="text-secondary"> Reality </span>
                   </h2>
-                  <p className="text-medium w-[75ch] text-center mb-5 text-[#010101a9]">
+                  <p className="text-medium w-full md:w-[75ch] text-center mb-5 text-[#010101a9]">
                         Whether you’re established enterprise or a growing startup , 
                         we can collaborate with you to bring life to your idea and make huge change to the world together.
                   </p>
@@ -27,7 +27,7 @@ export default function Header(){
                           height={300}
                       />
                   </div>
-                  <div className="absolute bottom-[40%] left-[20%] ">
+                  <div className="absolute bottom-[40%] left-[20%] z-[-10] ">
                        <Image 
                           src='/code.svg'
                           alt="code icon illustration"
@@ -36,7 +36,7 @@ export default function Header(){
                        
                        />
                   </div>
-                  <div className="absolute top-[20%] right-[20%] ">
+                  <div className="absolute top-[20%] right-[20%] z-[-10]">
                        <Image 
                           src='/code.svg'
                           alt="code icon illustration"

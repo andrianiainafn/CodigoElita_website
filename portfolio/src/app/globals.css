@@ -5,10 +5,10 @@
 
 @layer components{
     .text-logo{
-        @apply  text-[2.5rem] 
+        @apply text-[2rem] md:text-[2.5rem] 
     }
     .text-head{
-        @apply  text-[4.5rem]  leading-snug
+        @apply text-[2.5rem] md:text-[3rem] lg:text-[4.5rem]  leading-snug
     } 
     .text-subhead{
         @apply  text-[2.5rem] leading-tight 

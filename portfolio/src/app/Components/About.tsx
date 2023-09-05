@@ -13,12 +13,12 @@ export default function About(){
                         <span className="text-secondary">Untitled</span>
                         , a team of Tech Enthusiasts 
                     </h2>
-                    <p className="w-[58ch] mb-2 text-[#0d0d00ba]">
+                    <p className=" w-full md:w-[58ch] mb-2 text-[#0d0d00ba]">
                         Our story began at Ecole National D'informatique Fianarantsoa, where we 
                         , as students of Software Engineering, discovered the vast opportunities within the tech landscape.
                       
                     </p>
-                    <p className="w-[58ch] mb-5 text-[#0d0d00ba]">
+                    <p className=" w-full md:w-[58ch] mb-5 text-[#0d0d00ba]">
                     United by our curiosity and determination to explore new frontiers, we decided to join forces and form Untitled.
                         This decision marked the beginning of our journey towards creating a meaningful impact through technology.
                     </p>
