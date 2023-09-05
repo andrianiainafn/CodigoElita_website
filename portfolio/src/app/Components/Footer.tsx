@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {}
 
-const Footer = (props: Props) => {
+export const Footer = (props: Props) => {
   return (
     <div className='bg-[#131313]'>
         <div className="flex justify-between items-center">
