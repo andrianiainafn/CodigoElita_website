@@ -306,8 +306,9 @@
 
 /* FOOTER */
 @media screen and (max-width: 644px) {
-    .footer{
-        padding: 12px 40px;
+    .footer,.incitation,.form,.stats{
+        padding-left: 40px;
+        padding-right: 40px;
 
     }
 }

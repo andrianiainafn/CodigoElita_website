@@ -5,7 +5,7 @@ type Props = {}
 
 const Stats = (props: Props) => {
   return (
-    <div className='bg-[#fff] flex justify-between items-center space-y-4   px-24 py-12 flex-wrap'>
+    <div className='bg-[#fff] flex justify-between items-center space-y-4   px-24 py-12 flex-wrap stats'>
         <div className=" flex flex-col space-y-2 justify-between items-center w-[128px]">
             <Image width={20} height={20} src="/serv.png"  alt='stats icon'/>
             <p className='text-[#7C3AED] font-bold text-2xl'>15 +</p>
