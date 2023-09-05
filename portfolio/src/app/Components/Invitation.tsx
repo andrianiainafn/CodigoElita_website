@@ -5,7 +5,7 @@ type Props = {}
 
 const Invitation = (props: Props) => {
   return (
-    <div className='bg-[#7C3AEDC2] h-[400px] w-full flex md:justify-between flex-col md:flex-row md:px-32 px-10 space-y-10 md:space-y-0 justify-center items-center text-[#f5f5f5]'>
+    <div className='bg-[#7C3AEDC2] h-[400px] w-full flex md:justify-between flex-col md:flex-row md:px-32 px-10 space-y-10 md:space-y-0 justify-center items-center text-[#f5f5f5] padding-x padding-y'>
         <div className="w-full md:w-[50%] ">
           <h3 className=' text-[3em] items-center'>
             Why <span className='text-[#1E1E1E]'> Choose Us </span>  For your Next Project

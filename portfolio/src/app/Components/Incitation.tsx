@@ -3,7 +3,7 @@ import Button from '../Element/Button'
 
 function Incitation() {
   return (
-    <div className='text-[#fff] py-10 px-24 bg-[#7C3AEDC2] incitation'>
+    <div className='text-[#f2f2f2]  bg-[#7C3AEDC2] padding-x padding-y incitation'>
         <div className="flex flex-col space-y-4 md:w-[45%] w-[100%] mb-5">
             <h2 className='text-subhead'>
                 Let’s create and <span className=''>build</span> something amazing together
