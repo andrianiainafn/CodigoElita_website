@@ -7,7 +7,7 @@ export const Footer = (props: Props) => {
   return (
     <div className='bg-[#131313] text-[#fff] py-12 px-20 space-y-4 footer'>
         <div className="flex justify-between items-start flex-col space-y-5 md:flex-row ">
-            <div className="w-[100%] md:w-[40%] text-center">
+            <div className="w-[100%] md:w-[40%] text-center md:text-start">
                 <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
             </div>
             <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5">
