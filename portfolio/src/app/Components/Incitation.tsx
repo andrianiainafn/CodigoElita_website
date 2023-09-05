@@ -3,7 +3,7 @@ import React from 'react'
 function Incitation() {
   return (
     <div className='text-[#fff] py-10 px-24 bg-[#7C3AEDC2]'>
-        <div className="flex flex-col space-y-4 w-[45%]">
+        <div className="flex flex-col space-y-4 md:w-[45%] w-[100%]">
             <h2 className='text-[2.5em]'>
                 Let’s create and <span className='opacity-70'>build</span> something amazing together
             </h2>
