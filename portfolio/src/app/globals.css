@@ -17,7 +17,7 @@
         @apply  text-[1.5rem] font-medium
     }
     .text-medium{
-        @apply text-[1.2rem]
+        @apply md:text-[1.2rem]
     }
     .text-link{
         @apply capitalize
@@ -32,7 +32,7 @@
         @apply px-[5%] md:px-[10%]
     }
     .padding-y{
-        @apply py-[10%] md:py-[6%]
+        @apply py-[10%] 
     }
 }
 /* .nav-fix{
