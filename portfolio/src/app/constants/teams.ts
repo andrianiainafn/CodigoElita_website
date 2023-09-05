@@ -3,7 +3,7 @@ export const teams = [
       avatarUrl: '/Nino.webp',
       fullName: 'RAZAFIMAMY Antonino Iraky Ny Avo',
       name:'antoninoh',
-      domain:'Backend Developper',
+      domain:'Backend Developer',
       contacts:{
         faceboook:'',
         github:'https://github.com/ninohantonio',
@@ -16,7 +16,7 @@ export const teams = [
       avatarUrl: '/nomena.jpg',
       fullName: 'ANDRIANIAINA Fanomezantsoa Nomena',
       name:'nomena',
-      domain:'MERN Stack, Mobile Developper',
+      domain:'MERN Stack, Mobile Developer',
       contacts:{
         faceboook:'',
         github:'https://github.com/andrianiainafn',
@@ -30,7 +30,7 @@ export const teams = [
       avatarUrl: '/Wendi.jpg',
       fullName: 'RAKOTONDRANAIVO Gilbert Joyaux Wendi Anderson',
       name:'wendi',
-      domain:'Django, VueJs, Laravel Developper',
+      domain:'Django, VueJs, Laravel Developer',
       contacts:{
         faceboook:'',
         github:'https://github.com/Pywendi',
@@ -42,7 +42,7 @@ export const teams = [
     {
       avatarUrl: '/Riry.JPG',
       fullName: 'NOMENJANAHARY Riry',
-      domain:'MERN Stack Developper && UI/UX Designer',
+      domain:'MERN Stack Developer && UI/UX Designer',
       name:"riry",
       contacts:{
         faceboook:'',
