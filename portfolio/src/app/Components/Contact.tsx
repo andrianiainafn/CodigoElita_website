@@ -5,12 +5,12 @@ type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <div className='flex w-full padding-x padding-y'>
+    <div className='flex w-full'>
         <span id="contact"></span>
         <div className="w-[50%] bg-[#d9d9d9] md:flex hidden">
 
         </div>
-        <div className="md:w-[50%] w-[100%] bg-[#fff] p-20 flex flex-col space-y-10">
+        <div className="md:w-[50%] w-[100%] bg-[#fff] p-20 flex flex-col space-y-10 form">
             <div className="flex flex-col">
                 <h2 className='font-bold text-[50px] text-start'> Get In Touch </h2>
                 <p className='opacity-75 text-start text-medium'>Have an  inquiry ?  Fill out the form to contact our team.</p>
