@@ -14,8 +14,8 @@ export default function Home() {
       <Header/>
       <main className="w-full">
          <About />
-         <Stats/>
          <Service/>
+         <Stats/>
          <Incitation/>
          <Contact/>
       </main>
