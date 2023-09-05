@@ -11,7 +11,7 @@ type ButtonProps ={
 export default function Button(props:ButtonProps){
      return (
           <Link 
-             className={`btn btn-${props.type == null ? "link": props.type } btn-${props.size} text-body`}
+             className={`btn btn-${props.type == null ? "link": props.type } btn-${props.size} text-body md:flex hidden`}
              href={props.to}
            >
               {props.label}

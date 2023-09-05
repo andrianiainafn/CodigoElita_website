@@ -31,7 +31,7 @@ export default function NavLink(){
      },[])
      return (
         <nav>
-            <ul className="flex items-center gap-5">
+            <ul className=" hidden md:flex items-center gap-5">
                  {
                     links.map((link) => {
                          return (

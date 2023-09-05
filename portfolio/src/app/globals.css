@@ -43,7 +43,6 @@
 
 } */
 .btn{
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.8rem  1.5rem;
@@ -88,3 +87,219 @@
     margin-right:0.5rem ;
     background: #F252E2;
 }
+
+
+
+/* MEMBERS CSSS*/
+.members-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    grid-template-areas: 
+        'upLeft center upRight'
+        'bLeft center bRight';
+}
+.upLeft, .upRight, .bLeft, .bRight, .center{
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: .6rem .2rem 1rem .2rem;
+    border-radius: .75rem;
+    -webkit-border-radius: .75rem;
+    -moz-border-radius: .75rem;
+    -ms-border-radius: .75rem;
+    -o-border-radius: .75rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .8rem;
+    height: 95%;
+}
+.upLeft{
+    grid-area: upLeft;
+}
+.center{
+    grid-area: center;
+    height: 48%;
+    /* margin: 1rem 0; */
+    align-self: center;
+}
+.upRight{
+    grid-area: upRight;
+}
+.bLeft{
+    grid-area: bLeft;    
+}
+.bRight{
+    grid-area: bRight;
+}
+.general-content{
+    overflow-x: hidden;
+}
+.titles p{
+    color: #f2f2f2ab;
+}
+
+@media screen and (max-width: 1620px) {
+    .members-cards{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .members-cards{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+@media screen and (max-width: 1076px) {
+    .members-cards{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 985px){
+    .general-content{
+        height: auto;
+    }
+    .titles{
+        height: 18%;
+    }
+    .members-cards{
+        height: 82%;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            'upLeft upRight'
+            'center center'
+            'bLeft bRight';
+    }
+    .fnames-container,.domain-container{
+        max-width: 60%;
+    }
+    .upLeft, .upRight, .bLeft, .bRight{
+        height: 92%;
+        width: 85%;
+    }
+    .center{
+        height: 92%;
+        width: 42.7%;
+    }
+    .contacts{
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:801px) {
+    .upLeft, .upRight, .bLeft, .bRight{
+        width: 95%;
+        height: 97%;
+        margin: 0;
+        padding-top: 0.4rem;
+    }
+    .center{
+        padding-top: 0.4rem;
+        height: 97%;
+        width: 48.5%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 633px){
+    /* .members-cards{
+        height: 75%;
+    } */
+    .members-cards{
+        height: auto;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.8rem;
+    } 
+    .upLeft, .upRight, .bLeft, .bRight, .center{
+        width: 75%;
+        height: 97%;
+        margin: 0;
+        padding-top: 0.4rem;
+    }
+    .fnames{
+        font-size: .9rem;
+    }
+    .domain{
+        font-size: 0.85rem;
+    }
+    .icons{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media screen and (max-width:496px) {
+    .titles p{
+        margin-top: 0.8rem;
+    }
+    .titles h2{
+        line-height: 2rem;
+    }
+    .contacts{
+        margin-top: .5rem;
+    }
+    .upLeft, .upRight, .bLeft, .bRight, .center{
+        margin: .8rem;
+        width: 80%;
+        padding-top: .8rem;
+    } 
+    .general-content{
+        height: auto;
+    }
+    .fnames{
+        font-size: 1rem;
+    }
+    .domain{
+        font-size: .8rem;
+    }
+    .avatar{
+        width: 7rem;
+        height: 7rem;
+    }
+}
+@media screen and (max-width:390px) {
+    
+    .upLeft, .upRight, .bLeft, .bRight, .center{
+        width: 100%;
+    } 
+    .icons{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:300px) {
+    
+    .upLeft, .upRight, .bLeft, .bRight, .center{
+        width: 100%;
+    } 
+    .contacts{
+        width: 80%;
+    }
+    .icons{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/* @media screen and (max-height:900px) and (min-width:841px){
+    .general-content{
+        height: 120vh;
+    }
+}
+@media screen and (max-height:700px) and (min-width:841px){
+    .general-content{
+        height: 140vh;
+    }
+} */
