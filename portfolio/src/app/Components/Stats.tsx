@@ -7,24 +7,24 @@ const Stats = (props: Props) => {
   return (
     <div className='bg-[#fff] flex justify-around items-center space-y-4 padding-x padding-y flex-wrap stats'>
         <div className=" flex flex-col space-y-2 justify-between items-center w-[128px]">
-            <Image width={20} height={20} src="/serv.png"  alt='stats icon'/>
-            <p className='text-[#7C3AED] font-bold text-2xl'>15 +</p>
-            <p className='text-[#000] opacity-80'>Projects done</p>
+            {/* <Image width={20} height={20} src="/serv.png"  alt='stats icon'/> */}
+            <p className='text-secondary  text-subhead'>15+</p>
+            <p className='text-body opacity-80'>Projects done</p>
         </div>
         <div className=" flex flex-col space-y-2 justify-between items-center w-[128px]">
-            <Image width={20} height={20} src="/serv.png"  alt='stats icon'/>
-            <p className='text-[#7C3AED] font-bold text-2xl'>5 +</p>
-            <p className='text-[#000] opacity-80'>Ongoing Project</p>
+            {/* <Image width={20} height={20} src="/serv.png"  alt='stats icon'/> */}
+            <p className='text-secondary  text-subhead'>5+</p>
+            <p className='text-body opacity-80'>Ongoing Project</p>
         </div>
         <div className=" flex flex-col space-y-2 justify-between items-center w-[128px]">
-            <Image width={20} height={20} src="/serv.png"  alt='stats icon'/>
-            <p className='text-[#7C3AED] font-bold text-2xl'>25 +</p>
-            <p className='text-[#000] opacity-80'>Satisfied clients</p>
+            {/* <Image width={20} height={20} src="/serv.png"  alt='stats icon'/> */}
+            <p className='text-secondary  text-subhead'>90%+</p>
+            <p className='text-body opacity-80'>Satisfied clients</p>
         </div>
         <div className=" flex flex-col space-y-2 justify-between items-center w-[128px]">
-            <Image width={20} height={20} src="/serv.png"  alt='stats icon'/>
-            <p className='text-[#7C3AED] font-bold text-2xl'>10 +</p>
-            <p className='text-[#000] opacity-80'>Hackatons</p>
+            {/* <Image width={20} height={20} src="/serv.png"  alt='stats icon'/> */}
+            <p className='text-secondary  text-subhead'>10+</p>
+            <p className='text-body opacity-80'>Hackatons</p>
         </div>
     </div>
   )
