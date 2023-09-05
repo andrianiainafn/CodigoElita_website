@@ -6,9 +6,7 @@ import About from './Components/About'
 import Footer from './Components/Footer'
 import Stats from './Components/Stats'
 import Incitation from './Components/Incitation'
-import Members from './Components/Members'
 import Project from './Components/Project/Project'
-import Invitation from './Components/Invitation'
 
 export default function Home() {
   return (
@@ -16,8 +14,8 @@ export default function Home() {
       <Header/>
       <main className="w-full">
          <About />
+         <Stats/>
          <Service/>
-         <Members/>
          <Incitation/>
          <Contact/>
       </main>

@@ -5,9 +5,9 @@ type Props = {}
 
 export const Footer = (props: Props) => {
   return (
-    <div className='bg-[#131313] text-[#fff] py-12 px-20 space-y-4'>
-        <div className="flex justify-between items-start flex-col md:flex-row ">
-            <div className="w-[100%] md:w-[40%]">
+    <div className='bg-[#131313] text-[#fff] py-12 px-20 space-y-4 footer'>
+        <div className="flex justify-between items-start flex-col space-y-5 md:flex-row ">
+            <div className="w-[100%] md:w-[40%] text-center">
                 <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
             </div>
             <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5">
@@ -40,7 +40,7 @@ export const Footer = (props: Props) => {
         </div>
         <div className="text-[#fff] flex justify-between items-center">
             <div className="">
-                <p className='opacity-70'>copyright@20203.Untitled</p>
+                <p className='opacity-70'>copyright@2023.Untitled</p>
             </div>
             <div className="flex justify-between items-center space-x-2">
                 <div className='rounded-full h-8 w-8 bg-[#d9d9d9]'/>
