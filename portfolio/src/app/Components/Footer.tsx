@@ -8,7 +8,7 @@ export default function Footer(props: Props) {
   return (
     <div className='bg-[#131313] text-[#fff] space-y-4 padding-x padding-y footer'>
         <div className="flex justify-between items-start flex-col md:flex-row ">
-            <div className="w-[100%] md:w-[40%] text-center md:text-start">
+            <div className="w-[100%] md:w-[40%]  text-start">
                 <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
             </div>
             <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5 list space-y-3">

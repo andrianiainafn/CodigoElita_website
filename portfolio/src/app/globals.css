@@ -29,10 +29,10 @@
         @apply text-[#7C3AED]
     }
     .padding-x{
-        @apply px-[10%]
+        @apply px-[5%] md:px-[10%]
     }
     .padding-y{
-        @apply py-[6%]
+        @apply py-[10%] md:py-[6%]
     }
 }
 /* .nav-fix{
@@ -113,13 +113,13 @@ html, div, body{
 }
 
 /* FOOTER */
-@media screen and (max-width: 644px) {
+/* @media screen and (max-width: 644px) {
     .footer,.incitation,.form,.stats{
         padding-left: 40px;
         padding-right: 40px;
 
     }
-}
+} */
 @media screen  and (max-width: 505px) {
     .footer .list{
         flex-wrap: wrap;

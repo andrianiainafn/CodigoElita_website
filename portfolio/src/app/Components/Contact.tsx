@@ -10,7 +10,7 @@ const Contact = (props: Props) => {
         <div className="w-[50%] bg-[#d9d9d9] md:flex hidden">
 
         </div>
-        <div className="md:w-[50%] w-[100%] bg-[#fff] p-20 flex flex-col space-y-10 form">
+        <div className="w-full md:w-[50%]  bg-[#fff]  flex flex-col space-y-10 form">
             <div className="flex flex-col">
                 <h2 className='font-bold text-[50px] text-start'> Get In Touch </h2>
                 <p className='opacity-75 text-start text-medium'>Have an  inquiry ?  Fill out the form to contact our team.</p>
