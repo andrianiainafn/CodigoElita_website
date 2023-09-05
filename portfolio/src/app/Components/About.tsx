@@ -9,7 +9,7 @@ export default function About(){
             <div className="flex-1 flex flex-col items-baseline">
                 <Title  id="about" name="About us" />
                 <div>
-                    <h2 className="text-subhead font-medium w-[20ch] py-2">
+                    <h2 className="text-subhead font-medium w-full md:w-[20ch] py-2">
                         <span className="text-secondary">Untitled</span>
                         , a team of Tech Enthusiasts 
                     </h2>
@@ -25,7 +25,7 @@ export default function About(){
                     <Button label="Explore our services" type="primary" icon={<MdArrowForward/>} to="#services" size="large"/>
                 </div>
             </div>
-            <div className="flex-1 flex justify-center items-center border rounded-[2rem] bg-[#7c3aed62]">
+            <div className="hidden flex-1 md:flex justify-center items-center border rounded-[2rem] bg-[#7c3aed62]">
                  <Image 
                      src='/Teamwork.png'
                      alt="image for about section"
