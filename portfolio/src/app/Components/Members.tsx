@@ -25,7 +25,7 @@ type Props = {}
 
 const Members = (props: Props) => {
   return (
-    <div className='bg-[#0A0E26] flex flex-col general-content items-center font-Exo2 space-section'>
+    <div className='bg-[#fff] flex flex-col general-content items-center font-Exo2 space-section'>
     <span id='team'/>
     <div className="h-full flex flex-col justify-between  items-center w-full space-y-14">
 
