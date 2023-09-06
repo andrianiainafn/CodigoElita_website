@@ -5,9 +5,9 @@ import  { MdArrowBack, MdArrowForward, MdArrowRight, MdNavigateNext } from 'reac
 
 export default function Header(){
     return(
-        <header className=" min-h-screen flex-col">
+        <header className=" max-h-screen md:h-[100vh]  flex-col ">
              <NavBar />
-             <div className=" w-full h-[90vh] flex flex-col gap-5 items-center mt-40 text-[#0d0d0d]  relative">
+             <div className=" w-full max-h-fit md:h-[90vh] flex flex-col gap-2 md:gap-5 items-center mt-24 md:mt-40 px-[3%] text-[#0d0d0d]  relative">
                   <h2 className="text-center w-full md:w-[22ch] text-head font-semibold">
                      Transforming 
                     <span className="text-secondary"> Ideas </span> 
@@ -27,7 +27,7 @@ export default function Header(){
                           height={300}
                       />
                   </div>
-                  <div className="absolute bottom-[40%] left-[20%] z-[-10] ">
+                  <div className="absolute bottom-0 left-7 md:bottom-[40%] md:left-[20%] z-[-10] ">
                        <Image 
                           src='/code.svg'
                           alt="code icon illustration"
@@ -36,7 +36,7 @@ export default function Header(){
                        
                        />
                   </div>
-                  <div className="absolute top-[20%] right-[20%] z-[-10]">
+                  <div className="absolute right-0 bottom-[30%] md:top-[20%] md:right-[20%] z-[-10]">
                        <Image 
                           src='/code.svg'
                           alt="code icon illustration"

@@ -25,7 +25,7 @@ export default function About(){
                     <Button label="Explore our services" type="primary" icon={<MdArrowForward/>} to="#services" size="large"/>
                 </div>
             </div>
-            <div className="hidden flex-1 md:flex justify-center items-center border rounded-[2rem] bg-[#7c3aed62]">
+            <div className="hidden flex-1 lg:flex justify-center items-center border rounded-[2rem] bg-[#7c3aed62]">
                  <Image 
                      src='/Teamwork.png'
                      alt="image for about section"

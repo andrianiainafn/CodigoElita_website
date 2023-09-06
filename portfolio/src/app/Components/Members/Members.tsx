@@ -22,10 +22,10 @@ const Members = (props: Props) => {
             <h2 className='text-subhead'>Meet the member of our team</h2>
           </div>
 
-          {/* Description below the title*/}
-          <div className="text-center text-[#D9D9D9]">
-            <p>We are a team of five Developers working in a different domains. The domains shown below represent only each member's specificity</p>
-        </div>
+          {/* Description below the title
+          <div className="">
+            <p className="text-">We are a team of five Developers working in a different domains. The domains shown below represent only each member's specificity</p>
+        </div> */}
 
         {/* Cards section */}
         <div className="h-[82%] members-cards">
