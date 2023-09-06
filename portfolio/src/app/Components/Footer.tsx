@@ -11,7 +11,7 @@ export default function Footer(props: Props) {
             <div className="w-[100%] md:w-[40%]  text-start">
                 <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
             </div>
-            <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5 list space-y-3">
+            <div className="flex-1 flex justify-between items-start md:w-[45%] w-[100%] mt-5 list space-y-3">
                 <div className="flex flex-col space-y-2">
                     <h6 className='opacity-70'>Overview</h6>
                     <div className="flex flex-col space-y-1 text-sm">
