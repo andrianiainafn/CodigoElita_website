@@ -8,7 +8,7 @@ type Props = {}
 
 const Members = (props: Props) => {
   return (
-    <div className=' flex flex-col general-content   items-center font-Exo2 padding-x padding-y'>
+    <div className=' flex flex-col general-content items-center font-Exo2 padding-x padding-y'>
       <div className="h-full flex flex-col justify-between  items-center w-full space-y-14">
 
         {/* Texts section */}
@@ -28,7 +28,7 @@ const Members = (props: Props) => {
         </div> */}
 
         {/* Cards section */}
-        <div className="h-[82%] members-cards">
+        <div className="h-[82%] members-cards md:mt-12">
           {
             teams.map((elem,key)=>(
                   <div 
