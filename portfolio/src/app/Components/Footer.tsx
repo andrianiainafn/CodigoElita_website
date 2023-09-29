@@ -9,7 +9,7 @@ export default function Footer(props: Props) {
     <div className='bg-[#131313] text-[#fff] space-y-4 padding-x padding-y footer'>
         <div className="flex justify-between items-start flex-col md:flex-row ">
             <div className="w-[100%] md:w-[40%]  text-start">
-                <h3 className='font-semibold text-[2.5em]'>.Untitled</h3>
+                <h3 className='font-semibold text-[2.5em]'>.TechXcel</h3>
             </div>
             <div className="flex justify-between items-start md:w-[45%] w-[100%] mt-5 list space-y-3">
                 <div className="flex flex-col space-y-2">
@@ -41,7 +41,7 @@ export default function Footer(props: Props) {
         </div>
         <div className="text-[#fff] flex justify-between items-center">
             <div className="">
-                <p className='opacity-70'>copyright@2023.Untitled</p>
+                <p className='opacity-70'> TechXcel &#169; {new Date().getFullYear()} </p>
             </div>
             <div className="flex justify-between items-center space-x-2 cursor-pointer">
                 <a className='cursor-pointer'>

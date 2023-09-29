@@ -11,9 +11,9 @@ export default  function NavBar(){
         <div className={`w-full h-[10vh] flex justify-around items-center fixed top-0 mb-10 backdrop-filter backdrop-blur-lg z-10 bg-opacity-30 border-b border-gray-200`}>
              {/* <Image 
                   src='/logo'
-                  alt="logo of untitled"
+                  alt="logo of TechXcel"
              /> */}
-             <h2 className="text-logo font-bold">.Untitled</h2>
+             <h2 className="text-logo font-bold">.TechXcel</h2>
              <NavLink />
              <Button label="Contact us" to='#contact' type='secondary'/>
         </div>
