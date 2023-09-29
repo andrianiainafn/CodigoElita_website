@@ -8,10 +8,10 @@
         @apply text-[2rem] md:text-[2.5rem] 
     }
     .text-head{
-        @apply text-[2.5rem] md:text-[3rem] lg:text-[4.5rem]  leading-snug
+        @apply text-[2.2rem] md:text-[3rem] lg:text-[4.5rem]  leading-snug
     } 
     .text-subhead{
-        @apply  text-[2.5rem] leading-tight 
+        @apply  text-[2.5rem] leading-tight
     }
     .text-title{
         @apply  text-[1.5rem] font-medium
@@ -32,7 +32,7 @@
         @apply px-[5%] md:px-[10%]
     }
     .padding-y{
-        @apply py-[10%] 
+        @apply py-[10%] md:py-[6%] 
     }
 }
 /* .nav-fix{

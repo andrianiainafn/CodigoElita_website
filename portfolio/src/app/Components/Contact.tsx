@@ -1,16 +1,22 @@
 import React from 'react'
 import Button from '../Element/Button'
+import Image from 'next/image'
 
 type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <div className='flex w-full justify-between md:gap-10  padding-x padding-y'>
+    <div className='flex w-full justify-between items-center md:gap-10  padding-x padding-y'>
         <span id="contact"></span>
-        <div className="w-[50%] bg-[#d9d9d9] md:flex hidden">
-
+        <div className="flex-1 lg:flex hidden">
+              <Image 
+                 src='/contact.png'
+                 alt='contact illustation'
+                 width={650}
+                 height={400}
+              />
         </div>
-        <div className="w-full md:w-[50%]  bg-[#fff]  flex flex-col space-y-10 form">
+        <div className="flex-1 w-full md:w-[50%]  bg-[#fff]  flex flex-col  space-y-10 form">
             <div className="flex flex-col">
                 <h2 className='font-bold text-[50px] text-start'> Get In Touch </h2>
                 <p className='opacity-75 text-start text-medium'>Have an  inquiry ?  Fill out the form to contact our team.</p>

@@ -8,7 +8,7 @@ type Props = {}
 
 const Members = (props: Props) => {
   return (
-    <div className=' flex flex-col general-content   items-center font-Exo2 padding-x padding-y'>
+    <div className=' flex flex-col general-content items-center font-Exo2 padding-x padding-y'>
       <div className="h-full flex flex-col justify-between  items-center w-full space-y-14">
 
         {/* Texts section */}
@@ -22,13 +22,13 @@ const Members = (props: Props) => {
             <h2 className='text-subhead'>Meet the member of our team</h2>
           </div>
 
-          {/* Description below the title*/}
-          <div className="text-center text-[#D9D9D9]">
-            <p>We are a team of five Developers working in a different domains. The domains shown below represent only each member's specificity</p>
-        </div>
+          {/* Description below the title
+          <div className="">
+            <p className="text-">We are a team of five Developers working in a different domains. The domains shown below represent only each member's specificity</p>
+        </div> */}
 
         {/* Cards section */}
-        <div className="h-[82%] members-cards">
+        <div className="h-[82%] members-cards md:mt-12">
           {
             teams.map((elem,key)=>(
                   <div 
