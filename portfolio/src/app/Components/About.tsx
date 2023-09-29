@@ -10,7 +10,7 @@ export default function About(){
                 <Title  id="about" name="About us" />
                 <div>
                     <h2 className="text-subhead font-medium w-full md:w-[20ch] py-2">
-                        <span className="text-secondary">Untitled</span>
+                        <span className="text-secondary">TechXcel</span>
                         , a team of Tech Enthusiasts 
                     </h2>
                     <p className=" w-full md:w-[58ch] mb-2 text-[#0d0d00ba]">
