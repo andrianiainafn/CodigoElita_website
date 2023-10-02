@@ -20,7 +20,7 @@ export const teams = [
       contacts:{
         faceboook:'',
         github:'https://github.com/andrianiainafn',
-        linkedin:'',
+        linkedin:'https://www.linkedin.com/in/andrianiaina-fanomezantsoa-nomena-09b3a8267',
       },
       classes:'center', 
       direction:false
