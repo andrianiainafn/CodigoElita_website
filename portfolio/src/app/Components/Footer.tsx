@@ -41,7 +41,7 @@ export default function Footer(props: Props) {
         </div>
         <div className="text-[#fff] flex justify-between items-center">
             <div className="">
-                <p className='opacity-70'> TechXcel &#169; {new Date().getFullYear()} </p>
+                <p className='opacity-70'> CodigoElite &#169; {new Date().getFullYear()} </p>
             </div>
             <div className="flex justify-between items-center space-x-2 cursor-pointer">
                 <a className='cursor-pointer'>
