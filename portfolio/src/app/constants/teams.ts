@@ -53,7 +53,7 @@ export const teams = [
       direction:false
     },
     {
-      avatarUrl: '/FIaro.jpg',
+      avatarUrl: '/FIaro.JPG',
       fullName: 'VONIARIMALALA Fiaro Miangaly',
       name:'fiaro',
       domain:'Junior Data Scientist',
