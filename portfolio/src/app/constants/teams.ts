@@ -13,7 +13,7 @@ export const teams = [
       direction: true
     },
     {
-      avatarUrl: '/nomena.jpg',
+      avatarUrl: '/nomena.png',
       fullName: 'ANDRIANIAINA Fanomezantsoa Nomena',
       name:'nomena',
       domain:'MERN Stack, Mobile Developer',
