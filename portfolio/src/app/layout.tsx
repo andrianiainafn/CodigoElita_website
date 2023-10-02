@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'CodigoElite',
+  title: 'CodigoElita',
   description: 'create by Untitled Team',
 }
 
