@@ -13,7 +13,7 @@ export default  function NavBar(){
                   src='/logo'
                   alt="logo of TechXcel"
              /> */}
-             <h2 className="text-logo font-bold">.CodigoElita</h2>
+             <h2 className="text-logo font-bold">.Elita</h2>
              <NavLink />
              <Button label="Contact us" to='#contact' type='secondary'/>
         </div>
