@@ -1,4 +1,3 @@
-import Image from "next/image";
 "use client"
 import NavLink from "./NavLink";
 import Button from "@/app/Element/Button";
