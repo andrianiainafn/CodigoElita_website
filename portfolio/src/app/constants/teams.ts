@@ -42,7 +42,7 @@ export const teams = [
     {
       avatarUrl: '/Riry.JPG',
       fullName: 'Riry NOMENJANAHARY',
-      domain:'MERN Stack Developer && UI/UX Designer',
+      domain:'Nextjs/ Nestjs & Flutter developper && UI/UX Designer',
       name:"riry",
       contacts:{
         faceboook:'',
